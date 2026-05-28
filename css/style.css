@@ -469,3 +469,46 @@ body {
     line-height: 1.8;
 
 }
+/* WORKFLOW */
+
+.workflow {
+
+    padding: 120px 0;
+    background: #FFF7F4;
+
+}
+
+.workflow-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.workflow-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 24px;
+    text-align: center;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.05);
+}
+
+.workflow-number {
+
+    width: 60px;
+    height: 60px;
+
+    margin: auto auto 30px;
+
+    background: var(--primary-color);
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+}
