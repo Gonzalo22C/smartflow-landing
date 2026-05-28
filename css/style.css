@@ -148,6 +148,7 @@ body {
 
 }
 
+
 /* HERO TEXT */
 
 .hero-text {
@@ -333,5 +334,39 @@ body {
 .socials a:hover {
 
     color: var(--primary-color);
+
+}
+/* TOOLS STRIP */
+
+.tools-strip {
+
+    padding: 40px 0;
+    background: #FFF7F4;
+
+}
+
+.tools-container {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.tool-card {
+
+    background: white;
+    padding: 18px 30px;
+
+    border-radius: 16px;
+
+    border: 1px solid #FFE1D6;
+
+    font-weight: 600;
+
+    color: var(--text-color);
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.04);
 
 }
