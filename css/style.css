@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* VARIABLES */
 
 :root {
@@ -135,7 +134,7 @@ body {
 
 .hero {
 
-    padding: 100px 0;
+    padding: 80px 0;
 
 }
 
@@ -157,24 +156,12 @@ body {
 
 }
 
-.badge {
-
-    display: inline-block;
-    background: #FFF1EB;
-    color: var(--primary-color);
-    padding: 12px 20px;
-    border-radius: 999px;
-    font-size: 0.9rem;
-    font-weight: 500;
-    margin-bottom: 30px;
-
-}
 
 .hero-text h1 {
 
     font-size: 5rem;
     line-height: 1.1;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 
 }
 
@@ -220,8 +207,8 @@ body {
 .footer {
 
     background: #F8FAFC;
-    padding-top: 100px;
-    margin-top: 100px;
+    padding-top: 50px;
+    margin-top: 30px;
 
 }
 
@@ -336,38 +323,52 @@ body {
     color: var(--primary-color);
 
 }
-/* TOOLS STRIP */
+/*Tools*/
+.tools-strip{
 
-.tools-strip {
+    padding:60px 0;
 
-    padding: 40px 0;
-    background: #FFF7F4;
-
-}
-
-.tools-container {
-
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+    background:#FFF7F4;
 
 }
 
-.tool-card {
+.tools-title{
 
-    background: white;
-    padding: 18px 30px;
+    text-align:center;
 
-    border-radius: 16px;
+    font-size:1rem;
 
-    border: 1px solid #FFE1D6;
+    color:var(--gray-color);
 
-    font-weight: 600;
+    margin-bottom:30px;
 
-    color: var(--text-color);
+    font-weight:600;
 
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.04);
+    letter-spacing:1px;
+
+}
+
+.tools-list{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:40px;
+
+    flex-wrap:wrap;
+
+}
+
+.tools-list span{
+
+    font-size:1.1rem;
+
+    font-weight:600;
+
+    color:#374151;
 
 }
 /* BENEFITS */
@@ -473,7 +474,7 @@ body {
 
 .workflow {
 
-    padding: 120px 0;
+    padding: 60px 0;
     background: #FFF7F4;
 
 }
@@ -588,7 +589,7 @@ body {
 
 .contact {
 
-    padding: 120px 0;
+    padding: 70px 0;
 
 }
 
@@ -640,7 +641,7 @@ body {
 
 .contact-form textarea {
 
-    height: 180px;
+    height: 150px;
 
     resize: none;
 
@@ -656,5 +657,26 @@ body {
     border-color: var(--primary-color);
 
     box-shadow: 0px 0px 0px 4px rgba(231, 57, 13, 0.08);
+
+}
+.contact-form button{
+
+    background: var(--primary-color);
+
+    color:white;
+
+    border:none;
+
+    padding:18px 32px;
+
+    border-radius:16px;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
 
 }
